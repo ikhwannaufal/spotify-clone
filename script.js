@@ -1,7 +1,7 @@
 // var TOKEN = "" <-- This is the token we will use to make requests to the Spotify API. Empty at first, but will updated later.
 var TOKEN = "";
 var client_id = "966145d3b0134f55911c46fd697e3cf7";
-var redirect_uri = window.location.origin;
+var redirect_uri = 'http://localhost:8888/callback';
 var scope = "user-read-private user-read-email user-top-read";
 
 // step 1 - wait for the page to be fully loaded
